@@ -6,13 +6,13 @@ public class LR1_2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введіть кількість елементів масиву n (n <= 200): ");
+        System.out.print("Введiть кiлькiсть елементiв масиву n (n <= 200): ");
         int n = scanner.nextInt();
 
         scanner.close();
 
         if (n > 200) {
-            System.out.println("Кількість елементів не повинна перевищувати 200.");
+            System.out.println("Кількiсть елементiв не повинна перевищувати 200.");
             return;
         }
 
@@ -57,7 +57,7 @@ public class LR1_2 {
             }
         }
 
-        System.out.println("Масив B (унікальні повторювані елементи):");
+        System.out.println("Масив B (унiкальнi повторюванi елементи):");
         for (int i = 0; i < bIndex; i++) {
             System.out.print("[" + B[i] + "]");
         }
